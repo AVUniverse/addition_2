@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -18,6 +20,15 @@ public class Main {
         int c=10, d=5;
         int sum = c+d;
         System.out.println(sum);
+
+    // Method-4 to add any two numbers
+
+        System.out.println("Enter two numbers");
+        Scanner scan = new Scanner(System.in);
+        int e = scan.nextInt();
+        int f = scan.nextInt();
+        int g = e+f;
+        System.out.println(g);
 
     }
 }
