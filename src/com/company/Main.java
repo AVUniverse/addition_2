@@ -13,5 +13,11 @@ public class Main {
         int b=4;
         System.out.println(a+b);
 
+    // Method-3 to add two numbers
+
+        int c=10, d=5;
+        int sum = c+d;
+        System.out.println(sum);
+
     }
 }
